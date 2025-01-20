@@ -13,19 +13,19 @@ const Sidebar = ({ className }: React.HTMLAttributes<HTMLDivElement>) => {
           </h2>
           <div className="space-y-1">
             <Button asChild variant="secondary" className="w-full justify-start">
-              <Link href="/dashboard">
+              <Link href="/">
                 <Home className="mr-2 h-4 w-4" />
                 Accueil
               </Link>
             </Button>
             <Button asChild variant="ghost" className="w-full justify-start">
-              <Link href="/dashboard/assemblees">
+              <Link href="/assemblees">
                 <Users className="mr-2 h-4 w-4" />
                 Assemblées
               </Link>
             </Button>
             <Button asChild variant="ghost" className="w-full justify-start">
-              <Link href="/dashboard/predications">
+              <Link href="/predications">
                 <BookOpen className="mr-2 h-4 w-4" />
                 Prédications
               </Link>
